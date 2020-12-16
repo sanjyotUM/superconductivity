@@ -1,0 +1,37 @@
+model_type,parameters,rmse
+Linear Regression,,17.532770911684427
+Random Forest,max_depth: 11 | n_estimators: 100,10.742258546103473
+Random Forest,max_depth: 11 | n_estimators: 200,10.716281446583006
+Random Forest,max_depth: 11 | n_estimators: 300,10.706596028190207
+Random Forest,max_depth: 15 | n_estimators: 100,10.115936218489141
+Random Forest,max_depth: 15 | n_estimators: 200,10.082049421804166
+Random Forest,max_depth: 15 | n_estimators: 300,10.09096835661429
+Random Forest,max_depth: 19 | n_estimators: 100,10.068804233323762
+Random Forest,max_depth: 19 | n_estimators: 200,10.030013736927446
+Random Forest,max_depth: 19 | n_estimators: 300,10.015818131989604
+Random Forest,max_depth: 23 | n_estimators: 100,10.063450439150444
+Random Forest,max_depth: 23 | n_estimators: 200,10.029553251969617
+Random Forest,max_depth: 23 | n_estimators: 300,10.02864888362457
+SVM,C: 50 | kernel: linear,17.85103831109241
+SVM,C: 50 | kernel: rbf,14.043838613795598
+SVM,C: 100 | kernel: linear,17.851698816895475
+SVM,C: 100 | kernel: rbf,13.684004406451935
+SVM,C: 200 | kernel: linear,17.85179872755559
+SVM,C: 200 | kernel: rbf,13.331899550587018
+SVM,C: 400 | kernel: linear,17.849966476437416
+SVM,C: 400 | kernel: rbf,13.060253890735572
+XGB,max_depth: 2 | n_estimators: 100,12.855933306785944
+XGB,max_depth: 2 | n_estimators: 200,12.11380587974701
+XGB,max_depth: 2 | n_estimators: 400,11.51919382525685
+XGB,max_depth: 2 | n_estimators: 700,11.15607633531794
+XGB,max_depth: 2 | n_estimators: 1000,10.986373552010123
+XGB,max_depth: 4 | n_estimators: 100,10.92391179959221
+XGB,max_depth: 4 | n_estimators: 200,10.590345486495787
+XGB,max_depth: 4 | n_estimators: 400,10.449489964564206
+XGB,max_depth: 4 | n_estimators: 700,10.455784609469326
+XGB,max_depth: 4 | n_estimators: 1000,10.497228672074312
+XGB,max_depth: 7 | n_estimators: 100,10.383259801493407
+XGB,max_depth: 7 | n_estimators: 200,10.418372402928254
+XGB,max_depth: 7 | n_estimators: 400,10.481673531899796
+XGB,max_depth: 7 | n_estimators: 700,10.50860482304254
+XGB,max_depth: 7 | n_estimators: 1000,10.51458053907293
